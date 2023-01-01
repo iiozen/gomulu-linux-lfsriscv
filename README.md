@@ -4,10 +4,16 @@
 
 # SIFIRDAN GÖMÜLÜ LINUX 
 
-Opensbi, U-boot ve Busybox ile Qemu'da boot edildi.
+### **Image.disk dosyası oluşturulup boot ve rootfs olarak formatlanarak /mnt/ altında mount edildi.**
 
-Oluşturulan index.html ve riscv.html dosyaları www/ altına kopyalandı.
+![..](./rootfsmount.gif)
 
-Hostta ifconfig ile qemuyla bağlantı kuruldu.
+**Opensbi, U-boot ve Busybox ile Qemu'da boot edildi.**
 
-Daha sonra bu html dosyalarına firefox üzerinden ulaşıldı.
+**Oluşturulan index.html ve riscv.html dosyaları www/ altına kopyalandı.**
+
+**Hostta ifconfig ile qemuyla bağlantı kuruldu.**
+
+### **Daha sonra bu html dosyalarına firefox üzerinden ulaşıldı.**
+
+![..](./websayfa.gif)
